@@ -1,1 +1,5 @@
-console.log('woohoo!');
+import { Test } from './test';
+
+let test = new Test();
+test.woohoo();
+console.log('woohoo');
