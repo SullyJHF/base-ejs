@@ -33,5 +33,10 @@
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "path": "^0.12.7"
+  },
+  "nodemonConfig": {
+    "ext": "js json ejs css",
+    "watch": [ "src/" ],
+    "ignore": [ "bundle.js" ]
   }
 }
